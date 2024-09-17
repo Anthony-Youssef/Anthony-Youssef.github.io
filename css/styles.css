@@ -42,6 +42,34 @@ nav a:hover {
     color: white;
 }
 
+#about-me {
+    display: flex;
+    align-items: flex-start; /* Align items at the start */
+    justify-content: space-between; /* Space between photo and hobbies */
+    margin: 20px 0; /* Add margin for separation */
+}
+
+#about {
+    width: 40%; /* Increase width for better balance */
+    margin-left: 20px; /* Space between the image and hobbies */
+    padding: 10px; /* Add padding for aesthetics */
+    background-color: rgba(30, 30, 30, 0.8); /* Slightly transparent background */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#about h2 {
+    color: blue; /* Consistent heading color */
+}
+
+ol {
+    padding-left: 20px; /* Add padding for the ordered list */
+}
+
+ol li {
+    margin-bottom: 10px; /* Space between list items */
+    font-size: 1.1em; /* Slightly larger font for readability */
+}
+
 /* Main content styling */
 main {
     padding: 20px;
@@ -80,7 +108,8 @@ footer a:hover {
 
 /* Image Styling */
 img {
-    border: 5px solid blue;
+    border: 5px solid blue; /* Keep the existing image styles */
+    border-radius: 10px; /* Add rounded corners to the image */
     margin: 10px 0;
 }
 
