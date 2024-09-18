@@ -1,0 +1,73 @@
+/* Style sheet created by: Anthony Youssef, 18 September 2024 */
+
+/* CSS Reset */
+body, h1, h2, p, div {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Container styling */
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Main content styling */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.box {
+    padding: 20px;
+    background-color: #e0f7fa;
+    border: 2px solid #006064;
+    border-radius: 5px;
+}
+
+/* Sticky position styling */
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: #ffe0b2;
+}
+
+/* Relative position styling */
+.relative {
+    position: relative;
+    top: 120px;
+    left: 40px;
+    background-color: #dcedc8;
+}
+
+/* Fixed position styling */
+.fixed {
+    position: fixed;
+    top: 90px;
+    right: 10px;
+    width: 200px;
+    background-color: #ffccbc;
+}
+
+/* Absolute position styling */
+.absolute {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+    background-color: #c5cae9;
+}

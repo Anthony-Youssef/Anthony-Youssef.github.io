@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- 
+Anthony Youssef
+18 September 2024 
+-->
+<html lang="en">
+<head>
+    <title>Position</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="css/extend05.css">
+</head>
+<body>
+
+    <div id="container">
+    
+        <!-- Header for the website name or logo -->
+        <header>
+            <h1>Working with Positions</h1>
+        </header>
+
+        <!-- Main area containing different examples of CSS positioning -->
+        <main>
+            
+            <!-- Sticky Position Example -->
+            <div class="box sticky">
+                <h2>Sticky</h2>
+                <p>This is an example of an element with a sticky position. Its position is based on the user's scroll position.</p>
+                <p><strong>Explanation:</strong> By using "position: sticky;" and "position: -webkit-sticky;", this box becomes sticky within its parent container and will stick to the top when scrolling.</p>
+            </div>
+            
+            <!-- Relative Position Example -->
+            <div class="box relative">
+                <h2>Relative</h2>
+                <p>This is an example of an element with a relative position. It moves based on the top, left, right, or bottom properties relative to its original position.</p>
+                <p><strong>Explanation:</strong> The values "top: 120px;" and "left: 40px" moved the box 120 pixels down and 40 pixels right from its original position.</p>
+            </div>
+            
+            <!-- Fixed Position Example -->
+            <div class="box fixed">
+                <h2>Fixed</h2>
+                <p>This is an example of an element with a fixed position. It stays in a fixed position relative to the viewport, even when scrolling.</p>
+                <p><strong>Explanation:</strong> With "top: 90px;" and "right: 10px;", the box remains in the same position relative to the viewport, regardless of scrolling.</p>
+            </div>
+            
+            <!-- Absolute Position Example -->
+            <div class="box absolute">
+                <h2>Absolute</h2>
+                <p>This is an example of an element with an absolute position. It is positioned relative to the nearest positioned ancestor element.</p>
+                <p><strong>Explanation:</strong> Using "bottom: 20px;" and "right: 20px", the box is placed 20 pixels from the bottom and right edges of its containing element.</p>
+            </div>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
