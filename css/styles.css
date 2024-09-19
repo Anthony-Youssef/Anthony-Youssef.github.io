@@ -1,6 +1,6 @@
 /* General styling */
 body {
-    font-family: Arial, sans-serif; /* Fallback font */
+    font-family: 'Roboto', Arial, sans-serif; /* Custom font */
     background-color: black;
     color: white;
     margin: 0;
@@ -14,7 +14,7 @@ header {
 }
 
 header h1 {
-    font-family: cursive; /* Fallback font */
+    font-family: 'Lobster', cursive; /* Cool font for name */
     color: blue;
     font-size: 3em;
     margin: 0;
