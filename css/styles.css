@@ -57,6 +57,30 @@ nav a:hover {
     }
 }
 
+/* Tablet and desktop styles */
+@media (min-width: 769px) {
+    nav a {
+        font-size: 1.4em;
+        margin: 0 30px;
+    }
+
+    main {
+        padding: 40px;
+    }
+
+    .about-container {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    #hobbies {
+        max-width: 60%; /* Increase width of hobbies text */
+    }
+}
+
 /* Main content styling */
 main {
     padding: 20px;
@@ -65,12 +89,6 @@ main {
 /* About Me section styles */
 #about-me {
     margin-bottom: 20px;
-}
-
-.about-container {
-    display: flex; /* Use flexbox to position items */
-    align-items: flex-start; /* Align items at the top */
-    justify-content: space-between; /* Space between image and hobbies */
 }
 
 .about-image {
@@ -84,7 +102,6 @@ main {
     background-color: rgba(30, 30, 30, 0.8); /* Slightly transparent background */
     padding: 20px; /* Increase padding for aesthetics */
     border-radius: 10px; /* Rounded corners */
-    max-width: 60%; /* Increase width of hobbies text */
     text-align: left; /* Align text to the left */
 }
 
