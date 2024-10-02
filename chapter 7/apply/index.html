@@ -1,100 +1,74 @@
-/*
-Author:
-Date:
-File Name: 
-*/
-/* CSS Reset */
-body, header, nav, main, footer, h1, div, section, article, aside {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
 
-/* Style rule for body */
-body {
-	background-color: #c8dbE3;
-}
+<!DOCTYPE html>
+<!-- Anthony Youssef -->
+<html lang="en">
+<head>
+	<title>Webpage Design</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css/apply07.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<body>
 
-/* Style rules for mobile viewport */
+	<div id="container">
 
-/* Style rule for header */
-header {
-	font-family: Verdana, Arial, sans-serif;
-	margin-top: 0.2em;
-	background-color: #183440;
-	color: #fff;
-	padding: 2%;
-}
+        <!-- Use the header area for the website name or logo -->
+        <header>
+            <h1>Learn Webpage Design</h1>
+        </header>
 
-/* Style rules for nav area */
-nav {
-	background-color: #183440;
-	padding: 0.5%;
-}
+        <!-- Use the nav area to add hyperlinks to other pages within the website -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+            </ul>
+        </nav>
 
-nav li {
-	display: inline;
-}
+        <!-- Use the main area to add the main content of the webpage -->
+        <main>
 
-nav li a {
-	color: #fff;
-	padding: 1% 3%;
-	text-decoration: none;
-}
+            <article class='grid'>
+                    <section>
+                        <h3>CSS Grid Layout</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </section>
 
-/* Style rules for main content  */
-main {
-	padding: 1em;
-	background-color: #fff;
-}
+                    <section>
+                        <h3>Opacity</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </section>
 
-section{
-	background-color: #183440;
-	color: #fff;
-	margin-top: 4%;
-	padding: 3%;
-}
+                    <section>
+                        <h3>Shadows</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </section>
 
-article{
-	margin-top: 1%;
-	padding: 2%;
-}
+                    <section>
+                        <h3>Favicon</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </section>
 
-aside{
-	background-color: rgba(24, 52, 64, 0.3);
-	padding: 2%;
-	margin-top: 1%;
-	color: #183440;
-	box-shadow: 4px 4px 10px #183440;
-}
+                    <aside>
+                        <h2>Practice Makes Perfect</h2>
+                        <p>Webpage design is a skill learned over time. You must practice to improve.</p>
+                    </aside>
 
-footer {
-	font-size: .70em;
-	text-align: center;
-}
+                </article>
 
-/* Media Query for Tablet Viewport */
-@media screen and (min-width: 650px), print {
-    .grid{
-		display: grid;
-		grid-template-columns: auto auto;
-		grid-gap: 20px;
-	}
+        </main>
 
-	aside{
-		grid-column: 1 / span 2;
-	}
-    
-}
+        <!-- Use the footer area to add webpage footer content -->
+        <footer>
+            <p>Designed by: Student's Name</p>
+        </footer>
 
-/* Media Query for Desktop Viewport */
-@media screen and (min-width: 1024px), print {
-	.grid{
-		display: grid;
-		grid-template-columns: auto auto auto auto;
-	}
-	aside{
-		grid-column: 1 / span 4;
-	} 
-    
-}
+	</div>
+	
+</body>
+</html>
