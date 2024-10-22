@@ -141,6 +141,84 @@ main {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
 }
 
+/* Favorites Page Specific Styling */
+
+/* Round Image Borders */
+.fav-images {
+    display: block; /* Make image a block element */
+    margin: 0 auto 20px auto; /* Center image horizontally */
+    max-width: 400px; /* Increase size */
+    height: auto; /* Maintain aspect ratio */
+    border: 5px solid blue; /* Blue border */
+    border-radius: 50%; /* Rounded image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Add shadow */
+    image-rendering: -webkit-optimize-contrast; /* For better display quality on some browsers */
+    image-rendering: crisp-edges; /* Makes edges sharper */
+}
+
+
+
+/* Hover Effect for Images */
+.fav-images:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.9); /* Enhanced shadow on hover */
+}
+
+/* Favorite Songs Section */
+#music {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns for songs */
+    gap: 20px; /* Space between songs */
+    margin: 40px auto; /* Center songs with margin */
+    max-width: 1000px; /* Limit the width */
+}
+
+.song {
+    border-radius: 10px; /* Rounded borders for Spotify embeds */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8); /* Shadow for depth */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    #music {
+        grid-template-columns: 1fr; /* One column layout on smaller screens */
+    }
+}
+
+/* Navigation Bar Styling */
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: blue;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+nav a.active {
+    background-color: black;
+    color: white;
+    border: 1px solid blue;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+
 /* Credentials Section */
 .credentials-table {
     width: 100%; 
