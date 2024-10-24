@@ -11,19 +11,35 @@
     <header>
         <h1>Anthony Youssef</h1>
     </header>
-    
-    <nav>
-      <ul>
+
+    <!-- Navigation -->
+    <nav class="desktop-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-me.html">About Me</a></li>
+            <li><a href="project.html">Project</a></li>
+            <li><a href="credentials.html">Credentials</a></li>
+            <li><a href="contact-me.html">Contact Me</a></li>
+            <li><a href="favorites.html">Favorites</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+            <div>&#9776;</div> <!-- Hamburger icon -->
+        </div>
+        <div id="menu-links" style="display: none;">
             <a href="index.html">Home</a>
             <a href="about-me.html">About Me</a>
             <a href="project.html">Project</a>
             <a href="credentials.html">Credentials</a>
             <a href="contact-me.html">Contact Me</a>
             <a href="favorites.html">Favorites</a>
-            <a href="hobbies.html"> Hobbies</a>
-        </ul>
+            <a href="hobbies.html">Hobbies</a>
+        </div>
     </nav>
-    
     <main>
         <section id="about-me">
             <h2>About Me</h2>
@@ -46,11 +62,18 @@
                 </div>
             </div>
         </section>
+
+        <!-- Favorites Section -->
+        <article id="favorites">
+            <h2 class="title"><a href="favorites.html">Favorites</a></h2>
+        </article>
     </main>
     
     <footer>
         <p><a href="mailto:anthony.youssef@stu.cvccworks.edu">anthony.youssef@stu.cvccworks.edu</a></p>
         <p>&copy; Copyright 2024. All Rights Reserved.</p>
     </footer>
+    
+    <script src="scripts/script.js"></script>
 </body>
 </html>
